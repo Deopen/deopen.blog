@@ -1,32 +1,21 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "Alireza Azadi",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "back-end developer",
-    bio: "An observer, a sojourner, an Ibn us-Sabiil.\nHere, I write about whatever amuses me; Share my thoughts, and experiences.",
-    email: "Alireza_Azadi@Hotmail.com",
-    linkedin: "a-azadi",
-    github: "alirezaazadi",
-    instagram: "alireza_aazadi",
+    name: "Omid Yaghoubi",
+    image: "/omid.jpeg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    email: "deopenmail@gmail.com",
+    tumblr: deopen
   },
-  projects: [
-    {
-      name: `Cehckout my github`,
-      href: "https://github.com/alirezaazadi",
-    },
-  ],
   // blog setting (required)
   blog: {
-    title: "Alireza Azadi's Blog",
-    description: "I write about whatever amuses me. Share my thoughts, experiences.",
+    title: "Omid Yaghoubi's Blog"
   },
 
   // CONFIG configration (required)
-  link: "https://a-azadi.blog",
-  since: 2024, // If leave this empty, current year will be used.
+  link: "https://deopen-blog.vercel.app/",
+  since: 2025, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
-  ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: ""//"https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
   notionConfig: {
