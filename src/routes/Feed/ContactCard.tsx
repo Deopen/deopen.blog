@@ -23,7 +23,6 @@ const ContactCard: React.FC = () => {
             target="_blank"
             css={{ overflow: "hidden" }}
           >
-            <AiOutlineMail className="icon" />
             <div className="name">email</div>
           </a>
         )}
