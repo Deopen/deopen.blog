@@ -11,12 +11,7 @@ type Props = {
 }
 
 const Footer: React.FC<Props> = ({ className }) => {
-  return (
-    <StyledWrapper className={className}>
-        © {CONFIG.profile.name} {from === y || !from ? y : `${from} - ${y}`}
-      </a>
-    </StyledWrapper>
-  )
+  return ()
 }
 
 export default Footer
