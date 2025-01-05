@@ -4,7 +4,7 @@ const CONFIG = {
     name: "Omid Yaghoubi",
     image: "/omid.jpeg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     email: "deopenmail@gmail.com",
-    tumblr: "deopen"
+    tumblr: "deopen",
   },
   // blog setting (required)
   blog: {
