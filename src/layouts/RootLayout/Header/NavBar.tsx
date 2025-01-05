@@ -1,7 +1,7 @@
 import styled from "@emotion/styled"
 import Link from "next/link"
 
-const NavBar: React.FC = () => {
+/*const NavBar: React.FC = () => {
   const links = [{ id: 1, name: "About", to: "/#" }]
   return (
     <StyledWrapper className="">
@@ -14,7 +14,7 @@ const NavBar: React.FC = () => {
       </ul>
     </StyledWrapper>
   )
-}
+}*/
 
 export default NavBar
 
