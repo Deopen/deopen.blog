@@ -8,14 +8,14 @@ const CONFIG = {
   },
   // blog setting (required)
   blog: {
-    title: "Omid Yaghoubi's Blog"
+    title: "Omid Yaghoubi's Blog",
   },
 
   // CONFIG configration (required)
   link: "https://deopen-blog.vercel.app/",
   since: 2025, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
-  ogImageGenerateURL: "",//"https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
   notionConfig: {
