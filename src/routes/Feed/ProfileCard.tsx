@@ -63,17 +63,6 @@ const StyledWrapper = styled.div`
         font-style: italic;
         font-weight: 700;
       }
-      .role {
-        margin-bottom: 1rem;
-        font-size: 0.875rem;
-        line-height: 1.25rem;
-        color: ${({ theme }) => theme.colors.gray11};
-      }
-      .bio {
-        margin-bottom: 0.5rem;
-        font-size: 0.875rem;
-        line-height: 1.25rem;
-      }
     }
   }
 `
